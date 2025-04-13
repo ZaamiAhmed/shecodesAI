@@ -1,13 +1,10 @@
 
 function displayAnswer(response) {
-//  response.data.answer
  new Typewriter("#poem", {
     strings: response.data.answer,
     autoStart: true,
     cursor: null,
-  });
-  console.log(response.data.answer);
-    
+  });    
 }
 function poemGenerator(event) {
     event.preventDefault();
