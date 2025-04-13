@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Somali Poem generator</title>
 </head>
 <body>
@@ -14,14 +15,13 @@
     <h1>Somali Poem generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-generator">
             <input type="text" placeholder="Enter a topic" autofocus required class="input-text">
             <input type="submit" value="submit" class="btn-submit">
         </form>
-        <div class="poem">
-            Feminine words are followed
+        <div class="poem" id="poem">
             <br>
-            by a circle with two dots over.
+          
         </div>
     </main>
     <footer> Coded by Maryama Ahmed with🩷 and is <a href="https://github.com/ZaamiAhmed/shecodesAI" target="_blank">Open-sourced</a></footer>
